@@ -1,0 +1,40 @@
+/*variables*/
+$bluebanner: rgb(20, 20, 44);
+
+/*fonts fam*/
+@font-face {
+    font-family: 'gartonmedium';
+    src: url('garto16-webfont.eot');
+    src: url('garto16-webfont.eot?#iefix') format('embedded-opentype'),
+         url('garto16-webfont.woff2') format('woff2'),
+         url('garto16-webfont.woff') format('woff'),
+         url('garto16-webfont.ttf') format('truetype'),
+         url('garto16-webfont.svg#gartonmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    margin: 1em auto 0;
+    width: 100%;
+    max-width: 85ch;
+    font-size: 1.03em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.35),;
+    font-family: sans-serif;
+}
+
+.pbloc2 {
+    padding: 2em;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.titlecontent {
+    font-family: 'gartonmedium';
+    font-size: 2.5rem;
+    background-color: $bluebanner;
+    color: white;
+    padding: .2rem 1rem;
+    margin: 0;
+    font-weight: normal;
+}

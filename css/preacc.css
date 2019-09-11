@@ -1,0 +1,17 @@
+body {
+    background-color: #14142c;
+    height: 90vh;
+}
+
+.preacc {
+    margin: auto;
+}
+
+a.preacc__enter {
+    text-decoration: none; 
+    background-color: white; 
+    border-radius: 10%;
+    position: absolute;
+    top: 5rem;
+    padding: 2rem;
+}
